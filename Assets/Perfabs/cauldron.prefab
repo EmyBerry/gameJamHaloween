@@ -4859,6 +4859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8218713854624334363}
   - component: {fileID: 8301951852073976751}
+  - component: {fileID: 7109057522080858600}
   m_Layer: 0
   m_Name: collider
   m_TagString: Untagged
@@ -4902,6 +4903,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4210495, y: 0.43018973, z: 0.45092338}
   m_Center: {x: -0.003735438, y: 0.3435238, z: -0.010741919}
+--- !u!114 &7109057522080858600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040907142568386074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2afc7017176f12640b1404b966745938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsDisplay: {fileID: 0}
+  playerPoints: {fileID: 11400000, guid: ad4e6b736827a0d4a961a4566d3829ac, type: 2}
 --- !u!1 &7241202565319577442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,7 +4951,7 @@ Transform:
   - {fileID: 6839314353074855990}
   - {fileID: 8218713854624334363}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3467626546258822174
 MeshFilter:

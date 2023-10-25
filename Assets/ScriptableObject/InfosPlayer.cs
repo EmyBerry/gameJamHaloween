@@ -7,6 +7,7 @@ using UnityEngine;
 public class InfosPlayer : ScriptableObject {
     
     public int points;
+    public int requiredPoints;
     public int gameTime;
 
 }
