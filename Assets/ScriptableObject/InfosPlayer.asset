@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: InfosPlayer
   m_EditorClassIdentifier: 
   points: 0
+  requiredPoints: 10
   gameTime: 180
