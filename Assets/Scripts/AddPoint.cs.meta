@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2afc7017176f12640b1404b966745938
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pointsDisplay: {instanceID: 0}
+  - playerPoints: {fileID: 11400000, guid: 1bfaedee8bf36ea43b4bb3dbeab8c528, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
