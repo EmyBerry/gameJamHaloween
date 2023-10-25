@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class AddPoint : MonoBehaviour
+public class Cauldron : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI pointsDisplay;
     [SerializeField] private Points playerPoints;
@@ -19,11 +19,9 @@ public class AddPoint : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if(!(requiredPoints < currentPoints && other.gameObject.tag == "Points")) {
+        if(!(currentPoints < requiredPoints && other.gameObject.tag == "Points")) return;
             currentPoints++;
             pointsDisplay.text = ""+currentPoints;
-            //TODO : Delete GameObject
-            
-        }
+            Destroy(other.gameObject);
     }
 }
