@@ -21,6 +21,8 @@ public class SystemTimer : MonoBehaviour
         _remainingTime = _player.gameTime;
 
         _gameTime.text = _remainingTime.ToString();
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
     }
 
     
