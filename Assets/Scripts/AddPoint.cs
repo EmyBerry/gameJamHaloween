@@ -29,7 +29,7 @@ public class Cauldron : MonoBehaviour
     {
         if(!(currentPoints < requiredPoints && other.gameObject.tag == "Points")) return;
             playerPoints.points++;
-            //pointsDisplay.text = ""+currentPoints;
+            pointsDisplay.text = ""+currentPoints;
             Destroy(other.gameObject);
     }
 
